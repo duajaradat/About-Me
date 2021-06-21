@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(151, 76, 221);
+    height: 250px;
+    color: rgb(45, 20, 68);
+}
+header h1{
+    font-style:oblique;
+font-size: 90px;
+text-align:center;
+margin-top: 1%
+
+} 
+header h2{
+    font-style:oblique;
+font-size: 45px;
+text-align:center;
+}
+footer{
+    background-color:rgb(151, 76, 221);
+    height: 200px;
+}
+footer p{
+    text-align: center;
+    font-style:oblique;
+    font-size: 20px;
+    padding-top: 10px;
+}
+footer p a {
+    text-align: center;
+    font-style:oblique;
+    font-size: 20px;
+}
+body{
+    background-color:rgb(184, 161, 206) ;
+}
+main h3{
+    text-align: center;
+    font-style:oblique;
+    font-size: 30px;
+    margin: 10px; 
+}
+main img {
+    display: inline-block;
+   margin-left:620px;
+   height: 250px;
+   width:250px;
+}
+main section p{
+    display: inline-block;
+    margin: right 100px; ; 
+    text-align:center;
+    font-style:oblique;
+    font-size: 20px;
+    margin:20px ;
+}
