@@ -29,7 +29,7 @@ switch (Q2) {
         break;
     case "no":
     case "n":
-        alert("OOH!! That's Wrong answer. I do LIke Art")
+        alert("OOH!! That's a Wrong answer. I do LIke Art")
         console.log("OOH!! That's Wrong answer. I do LIke Art");
     default:
         alert("Let's Move to the next Question.")
@@ -46,11 +46,44 @@ switch (Q3) {
         break;
     case "no":
     case "n":
-        alert("OOH!! That's Wrong answer. I am a Jordanian")
+        alert("OOH!! That's a Wrong answer. I am a Jordanian")
         console.log("OOH!! That's Wrong answer.I am a Jordanian");
+    default:
+        alert("OKAY!! Move to the next question")
+        console.log("OKAY!! Move to the next question")
+}
+let Q4 = prompt(userName + "!Am I a coffee Lover? ").toLowerCase();
+console.log(Q4);
+switch (Q4) {
+    case "yes":
+    case "y":
+        alert("That's CORRECT.WOHOO!! Actually I can't start My Day without Coffee ")
+        console.log("That's CORRECT.WOHOO!! Actually I can't start My Day without Coffee");
+        break;
+    case "no":
+    case "n":
+        alert("OOPS!! That's a Wrong answer. I do Love Coffee")
+        console.log("OOH!! That's Wrong answer. I do Love Coffee");
+    default:
+        alert("Let's Move to the final Question.")
+        console.log("Let's Move to the final Question.")
+}
+
+let Q5 = prompt(userName + "!Do you think I am a food lover? ").toLowerCase();
+console.log(Q5);
+switch (Q5) {
+    case "yes":
+    case "y":
+        alert("That's CORRECT.Yummy yummy in my tummy. ")
+        console.log("That's CORRECT.Yummy yummy in my tummy.");
+        break;
+    case "no":
+    case "n":
+        alert("OOH NOO!! That's a Wrong answer.Who doesn't love food")
+        console.log("OOH NOO!! That's a Wrong answer.Who doesn't love food");
     default:
         alert("OKAY!! Thank You ")
         console.log("OKAY!! Thank You")
 }
-alert("Thank You:) and Welcome to My World.")
+alert("Thank You, GREAT JOB:) and Welcome to My World.")
 
