@@ -148,31 +148,6 @@ console.log("You Did a Great Job until NOW.Let's continue :)");
 alert("Can you Guess My Faviorate Meals? (you have only 6 attempts)");
 console.log("Can you Guess My Faviorate Meals? (you have only 6 attempts)");
 
-let favMeals = ["mansaf", "shawerma", "pizza", "spaghetti", "burger", "broasted"];
-console.log("favMeals" + favMeals);
-let Q7;
-for (let n= 1; n <= 6; n++){
-     Q7 = prompt("Try to guess my fav food? attempt number "+n).toLowerCase();
-     console.log(Q7);
-    if (favMeals.includes(Q7)){
-        alert("WOOW!!CORRECT!! you're amazing")
-        console.log("WOOW!!CORRECT!! you're amazing")
-        score++;
-        break;
-    }else{
-
-    }   
-    }
-
-   
-    
-
-alert("My Fav Food :" + favMeals);
-console.log("My Fav Food :" + favMeals);
-alert("You are so good.YOUR SCORE IS:" + score);
-console.log(score);
-
-
 
 function question7() {
     let favMeals = ["mansaf", "shawerma", "pizza", "spaghetti", "burger", "broasted"];
