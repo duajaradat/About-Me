@@ -1,7 +1,7 @@
 'use strict'
-let score=0;
+let score = 0;
 let userName = prompt("Please,Enter your Name")
-console.log("the user name is "+userName);
+console.log("the user name is " + userName);
 alert("Hi " + userName + "! Welcome to My World")
 alert("Let's START Our guessing Game " + userName + ". I will ask you a few question. Please Answer with (yes/no)")
 let Q1 = prompt(userName + "! Do you know who I am ?").toLowerCase();
@@ -123,7 +123,7 @@ alert("Can you Guess My Faviorate Meals? (you have only 6 attempts)");
 console.log("Can you Guess My Faviorate Meals? (you have only 6 attempts)");
 
 let favMeals = ["mansaf", "shawerma", "pizza", "spaghetti", "burger", "broasted"];
-console.log("favMeals"+favMeals);
+console.log("favMeals" + favMeals);
 let Q7;
 for (let n= 1; n <= 6; n++){
      Q7 = prompt("Try to guess my fav food? attempt number "+n).toLowerCase();
@@ -134,16 +134,20 @@ for (let n= 1; n <= 6; n++){
         score++;
         break;
     }else{
-        
+
     }   
     }
-    alert("My Fav Food :"+favMeals);
-    console.log("My Fav Food :"+favMeals);
-    alert("You are so good.YOUR SCORE IS:"+score);
-    console.log(score);
 
-
-
-
-
+   
     
+
+alert("My Fav Food :" + favMeals);
+console.log("My Fav Food :" + favMeals);
+alert("You are so good.YOUR SCORE IS:" + score);
+console.log(score);
+
+
+
+
+
+
