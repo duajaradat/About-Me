@@ -1,8 +1,12 @@
-header{
+header {
     background-color: rgb(151, 76, 221);
     height: 250px;
     color: rgb(45, 20, 68);
 }
+#parent{
+    position: sticky;
+}
+
 header h1{
     font-style:oblique;
 font-size: 90px;
@@ -23,7 +27,7 @@ footer p{
     text-align: center;
     font-style:oblique;
     font-size: 20px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 footer p a {
     text-align: center;
@@ -56,17 +60,21 @@ main section p{
 main section ul{
     text-align: left;
     font-size: 18px;
-    margin: 10px;
+    /* margin: 10px; */
+    padding-left:30px;
 
 }
 main section ol{
     text-align: left;
     font-size: 18px;
-    margin: 10px;
+    /* margin: 10px; */
+    padding-left: 30px;
+
 }
 section h4{
     text-align: left;
-    font-size: 15px;
-    margin: 20px;
+    font-size: 20px;
+    /* margin: 20px; */
+    padding-left:20px;
 }
 
